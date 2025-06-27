@@ -1,6 +1,6 @@
 # Query Fan-Out Analysis for Screaming Frog
 
-A custom JavaScript extraction that uses Google's Gemini AI to analyze how your content performs in Google's AI Mode search by predicting query fan-out patterns.
+A custom JavaScript extraction that uses Google's Gemini AI to analyze how your content performs in Google's AI Mode search by predicting query fan-out patterns. You should use Gemini Flash models, as some users have reported that Pro API models don't work. Flash models are working very fast.
 
 ## 🚀 What is Query Fan-Out?
 
@@ -21,7 +21,7 @@ This script analyzes your pages to:
 
 ## 📋 Prerequisites
 
-- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/) (any version with custom extraction)
+- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/) (any version with custom javascript)
 - [Google Gemini API Key](https://makersuite.google.com/app/apikey) (free tier available)
 - Basic understanding of JavaScript (optional)
 
@@ -36,7 +36,7 @@ This script analyzes your pages to:
 ### 2. Set Up in Screaming Frog
 
 1. Open Screaming Frog
-2. Navigate to: `Configuration > Custom > Extraction`
+2. Navigate to: `Configuration > Custom > Custom Javascript`
 3. Click "Add"
 4. Configure:
    - **Name**: Query Fan-Out Analysis
@@ -217,7 +217,7 @@ RECOMMENDATIONS: [Specific content gaps to fill]`;
 ## 🎯 Usage
 
 1. **Start a crawl** in Screaming Frog
-2. **Navigate** to the Custom Extraction tab after crawling
+2. **Navigate** to the tab after crawling (saved Custom JS name)
 3. **Review** the Query Fan-Out Analysis column
 4. **Export** results to CSV for bulk analysis
 
@@ -249,7 +249,7 @@ RECOMMENDATIONS: Add budget guidelines, case studies, measurement frameworks
 
 ### Bulk Analysis
 1. Crawl your entire site or sitemap
-2. Export Custom Extraction data
+2. Export Custom Javascript data
 3. Sort by Coverage Score to prioritize optimization
 
 ### Competitor Analysis
