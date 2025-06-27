@@ -22,14 +22,14 @@ This script analyzes your pages to:
 ## 📋 Prerequisites
 
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/) (any version with custom javascript)
-- [Google Gemini API Key](https://makersuite.google.com/app/apikey) (free tier available)
+- [Google Gemini API Key](https://aistudio.google.com/app/apikey) (free tier available)
 - Basic understanding of JavaScript (optional)
 
 ## 🛠️ Installation
 
 ### 1. Get Your Gemini API Key
 
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Click "Create API key"
 3. Copy your API key
 
