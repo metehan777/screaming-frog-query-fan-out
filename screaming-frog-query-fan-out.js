@@ -138,7 +138,7 @@ RECOMMENDATIONS: [Specific content gaps to fill]`;
   };
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, false);
+  xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, false);
   xhr.setRequestHeader('Content-Type', 'application/json');
 
   xhr.send(JSON.stringify(requestData));
