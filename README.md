@@ -181,7 +181,7 @@ RECOMMENDATIONS: [Specific content gaps to fill]`;
   };
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, false);
+  xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, false);
   xhr.setRequestHeader('Content-Type', 'application/json');
   
   xhr.send(JSON.stringify(requestData));
@@ -270,10 +270,10 @@ Use fan-out queries to:
 Replace the API endpoint for more detailed results:
 ```javascript
 // Change from:
-xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, false);
+xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, false);
 
 // To:
-xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`, false);
+xhr.open('POST', `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, false);
 ```
 
 ### Adjust Temperature for Different Results
