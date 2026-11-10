@@ -1,5 +1,6 @@
 // OpenAI Query Fan-Out Detection for Screaming Frog
 const openaiApiKey = 'sk-proj-xxxx';
+const model = 'gpt-5.6-luna';
 
 function extractSemanticChunks() {
   const chunks = [];
